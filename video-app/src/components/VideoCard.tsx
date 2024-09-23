@@ -1,6 +1,6 @@
 // components/VideoCard.tsx
 import Link from "next/link";
-import styles from "./Home.module.css";
+import styles from "./VideoCard.module.css";
 
 interface Video {
   id: string; // Alterado para string

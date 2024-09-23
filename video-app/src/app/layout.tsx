@@ -15,7 +15,7 @@ export default function RootLayout({
     <html lang="pt-BR">
       <body>
         <header>
-          <h1>Video App</h1>
+          Video App
         </header>
         <main>{children}</main>
         <footer>© 2024 Video App</footer>

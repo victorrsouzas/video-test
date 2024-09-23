@@ -1,9 +1,27 @@
 /* app/globals.css */
-body {
-  font-family: Arial, sans-serif;
+html, body {
+  height: 100%;
   margin: 0;
   padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-size: large;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
   background-color: #f5f5f5;
+  min-height: 100vh; /* Garante que o body ocupe 100% da altura da tela */
 }
 
 h1 {
@@ -12,7 +30,16 @@ h1 {
 }
 
 main {
+  flex: 1; /* O main ocupa o espaço disponível */
   padding: 20px;
 }
 
-
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
