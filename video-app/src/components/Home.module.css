@@ -1,0 +1,20 @@
+/* src/styles/Home.module.css */
+
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .thumbnail {
+    width: 20%;
+    height: auto;
+  }
+  
+  .details {
+    display: block;
+    margin-top: 10px;
+    color: blue;
+  }
+  
